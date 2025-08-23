@@ -42,7 +42,7 @@
 
         layer_1 {
             bindings = <
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp ASTERISK  &kp NON_US_BACKSLASH  &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &kp DOUBLE_QUOTES  &kp POUND  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp SQT  &trans  &trans  &trans  &trans  &trans  &trans  &kp EQUAL  &kp LCTRL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp ASTERISK  &kp NON_US_BACKSLASH  &kp BACKSLASH  &kt COLON  &kt SEMICOLON  &sk SEMICOLON  &kp COLON  &kp A  &kp A  &kp DOUBLE_QUOTES  &kp POUND  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp SQT  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp EQUAL  &kp LCTRL  &kp GRAVE  &kp SEMI  &kp APOS  &kp LEFT  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp FSLH  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
             >;
         };
 
