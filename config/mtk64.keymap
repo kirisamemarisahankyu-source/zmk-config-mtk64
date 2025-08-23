@@ -42,13 +42,13 @@
 
         layer_1 {
             bindings = <
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp ASTERISK  &kp NON_US_BACKSLASH  &kp BACKSLASH  &kt COLON  &kt SEMICOLON  &sk SEMICOLON  &kp COLON  &kp A  &kp A  &kp DOUBLE_QUOTES  &kp POUND  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp SQT  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp EQUAL  &kp LCTRL  &kp GRAVE  &kp SEMI  &kp APOS  &kp LEFT  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp FSLH  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp ASTERISK  &kp NON_US_BACKSLASH  &kp BACKSLASH  &kt LEFT_PARENTHESIS  &kt RIGHT_PARENTHESIS  &sk AMPERSAND  &kp EXCLAMATION  &kp NON_US_BACKSLASH  &kp A  &kp DOUBLE_QUOTES  &kp POUND  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp SQT  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp EQUAL  &kp LCTRL  &kp GRAVE  &kp SEMI  &kp APOS  &kp LEFT  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp FSLH  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
             >;
         };
 
         default_layer {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BACKSPACE  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp EQUAL  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp NON_US_BACKSLASH  &kp MINUS  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp CAPSLOCK  &kp ENTER  &kp N  &kp M  &mkp LCLK  &mkp RCLK  &kp COMMA  &kp PERIOD  &kp LALT  &kp LGUI  &kp F4  &kp F2  &kp UP  &kp RIGHT  &kp K_MENU  &kp DELETE  &mkp LCLK  &kp LA(TAB)  &kp F3  &kp LEFT  &none  &none  &kp SPACE  &kp DOWN  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BACKSPACE  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp EQUAL  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SQT  &kp MINUS  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp CAPSLOCK  &kp ENTER  &kp N  &kp M  &mkp LCLK  &mkp RCLK  &kp COMMA  &kp PERIOD  &kp LALT  &kp LGUI  &kp F4  &kp F2  &kp UP  &kp RIGHT  &kp K_MENU  &kp DELETE  &mkp LCLK  &kp LA(TAB)  &kp F3  &kp LEFT  &none  &none  &kp SPACE  &kp DOWN  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>, <&scroll_up_down>;
